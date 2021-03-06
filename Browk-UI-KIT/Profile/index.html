@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="wraper">
+		<div class="profile">
+			<form action="#" id="Profile_form">
+				<div class="Profile__header">
+					<h1>Profile</h1>
+					<nav>
+						<ul>
+							<li><a href="container__content1">Registration</a></li>
+							<li><a href="container__content2">Sign in</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="Profile__subbar">
+					<p>You can sign in with social</p>
+					<button href="#"><img src="img/vk.png" alt=""></button>
+					<button href="#"><img src="img/facebook.png" alt=""></button>
+					<button href="#"><img src="img/google.png" alt=""></button>
+				</div>
+				<div class="Profile__container">
+					<div class="container__content1" id="container__content1">
+						<input type="text" placeholder="Your name" name="Your_name" required>
+						<input type="email" placeholder="E-mail" name="E-mail" required>
+						<input type="tel" placeholder="Phone" name="Phone" required>
+					</div>
+					<div class="container__content2" id="container__content2">
+						<input type="text" placeholder="Your name" name="Your_name" required>
+						<input type="password" placeholder="password" name="password" required>
+					</div>
+				</div>
+            <div class="Profile__offer">
+            	<p><input type="checkbox" required>
+            	I accept the terms of the offer of <span><a href="#">the privacy policy</a></span></p>
+            </div>
+            <div class="Profile__btm">
+            	<input type="submit" id="btm_Registration" class="btm_Registration" value="Registration">
+            	<input type="submit" id="btm_Sign_in" class="btm_Sign_in" value="Sign in">
+            </div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

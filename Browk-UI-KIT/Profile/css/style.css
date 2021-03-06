@@ -1,0 +1,127 @@
+body{
+	background: #F2F2F2;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+
+
+.wraper {
+	
+	width: 474px;
+	margin: 71px auto;
+
+}
+h1{
+	font-family: Montserrat;
+	font-weight: bold;
+	font-size: 32px;
+
+}
+.profile {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+	border-radius: 8px;
+}
+.Profile__header {
+   padding: 32px 32px 15px;
+}
+.Profile__header ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+}
+.Profile__header li{
+	margin-right:  24px;
+}
+.Profile__header a{
+	text-decoration: none;
+	color: #6B6B6B;
+}
+.Profile__header a:hover{
+	color: #111;
+	border-bottom: 2px solid  #6E41E2;
+	padding-bottom: 15px;
+}
+.Profile__subbar {
+	border-top: 1px solid #F1F1F1;
+	background: #FAFAFA;
+	padding: 12px 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.Profile__subbar p{
+	flex-grow: 1;
+	font-size: 13px;
+	line-height: 20px;
+}
+.Profile__subbar button{
+	margin-left: 8px;
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	padding: 0;
+	border: none;
+}
+.Profile__subbar button:focus{
+	border: none;
+}
+.Profile__container {
+	padding: 24px 32px;
+}
+.container__content1 {
+	display: flex;
+	flex-direction: column;
+}
+.container__content1 input{
+	display: block;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
+	border-radius: 4px;
+	height: 24px;
+	margin: 0 0 20px 0;
+	border: 0;
+	padding: 16px;
+
+}
+
+.container__content2 {
+	display: none;
+}
+.Profile__offer {
+ margin: -40px 0 0;
+ padding: 0 32px;
+}
+.Profile__offer span{
+	color: #6E41E2;
+}
+
+.Profile__btm {
+margin: 0;
+padding:32px;
+display: flex;
+flex-direction: column;
+}
+.Profile__btm input{
+	height: 44px;
+	border-radius: 4px;
+	border: 0;	
+	box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.04), 0px 1px 6px rgba(51, 51, 51, 0.08);	
+	margin-bottom: 8px;
+}
+.btm_Registration {
+	background: #6E41E2;
+	color: #FFFFFF;
+}
+.btm_Sign_in {
+	color: #6E41E2;
+	background: #fff;
+}
