@@ -18,8 +18,7 @@ header{
 	background: #fff;
 	
 }
-.row {
-	
+.row {	
 	height: 100%;
 	display: flex;
 	flex-direction: row;
@@ -33,16 +32,17 @@ header{
 	line-height: 32px;
 	color: #000;
 }
+.menu_burger{
+	display: none;
+}
 .menu {
-	max-width: 418px;
+	width: auto;
 }
 .menu__lict {
-	display: flex;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	overflow: hidden;
 }
 .menu__item {
 	list-style: none;
@@ -53,14 +53,12 @@ header{
 	padding: 26px 0;
 	color: rgba(17, 17, 17, 0.48);
 }
-.menu__item:nth-child(2) {
-	margin: auto 24px ;
+.menu__item2{
+	margin: 0 24px ;
 }
 .item_profile {
 	flex-grow: 1;
-	margin-left: 56px;
-	
-
+	margin-left: 56px;	
 }
 .profile img{
 	background: #F1F1F1;
@@ -70,12 +68,11 @@ header{
 }
 a.profile{
 	color: #6E41E2;
-	flex-grow: 1;
 	padding: 13px 0;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: space-between;
+	
 }
 
 
@@ -113,7 +110,7 @@ margin-bottom: 12px;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 32px;
+	margin: 32px 0;
 }
 .search {
 	flex-grow: 1;
@@ -121,6 +118,7 @@ margin-bottom: 12px;
 	border-radius: 4px;
 	height: 56px;
 	padding: 20px 16px;
+
 	display: flex;
 	justify-content: start;
 	align-items: center;
@@ -180,7 +178,7 @@ height: 24px;
 	display: flex;
 	justify-content: space-between;
 }
-.island1 {}
+
 .island_container {
 	background: #FFFFFF;
 	box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
@@ -189,6 +187,7 @@ height: 24px;
 	overflow: hidden;
 }
 .island__bg {
+	width: 100%;
 	height: 134px;
 	background: url(../img/Alexa_fon.png);
 	background-size: cover;
@@ -227,6 +226,7 @@ height: 24px;
 }
 .island__content {
 	margin: 24px 20px 20px;
+
 }
 h2{
 	font-family: Montserrat;
@@ -255,12 +255,14 @@ h2{
 	background: url(../img/play.png) no-repeat left;
 }
 .island__content__btm {
+	display: flex;
 	margin-top: 32px;
 	color: #6E41E2;
 }
 .btm-Continue {
 	color: #6E41E2;
 	text-decoration: none;
+	width: 107px;
 	padding: 10px 20px;
 	border-radius: 8px;
 	box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
@@ -272,6 +274,7 @@ h2{
 .btm-More {
 	color: #6E41E2;
 	text-decoration: none;
+	width: 77px;
 	padding: 10px 20px;
 	border-radius: 8px;
 	box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08);
@@ -293,4 +296,48 @@ h2{
 .island3 .island__bg {
 	background: url(../img/Diane_fon.png);
 
+}
+.slider{
+	position: relative;	
+}
+.slick-list {
+	max-width: 1264px;
+	overflow: hidden;
+}
+.slick-track{
+	display: flex;
+	justify-content: space-between;
+	max-width: 1264px;
+}
+/*.slider .slick-arrow{
+	position: absolute;
+	top: 60%;
+	z-index: 20;	
+	font-size: 0;
+	width: 60px;
+	height: 30px;
+	border: none;
+	margin: -30px 0 0 0;	
+}*/
+/*.slider .slick-arrow.slick-prev{
+	left: 0;
+	background: url(../img/arow/unnamed.png) 0 0 / 100% no-repeat;
+	transform: rotate(180deg);
+}
+.slider .slick-arrow.slick-next{
+	right: 0;
+	background: url(../img/arow/unnamed.png) 0 0 / 100% no-repeat;
+}*/
+.slider__item{
+	text-align: center;
+	max-width: 400px;
+	opacity: 1;
+	transition: all 0.3s ease 0s;
+}
+.slick-slide{
+	max-width: 400px;
+}
+.slick-slide.slick-center{
+	opacity: 1;
+	max-width: 400px;
 }
