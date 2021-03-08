@@ -13,11 +13,12 @@
 	<header>
 		<div class="row">
 			<div class="logo">Logo</div>
+			<span class="menu_burger"></span>
 			<nav class="menu">
 				<ul class="menu__lict">
-					<li class="menu__item"><a href="#">Free test</a></li>
-					<li class="menu__item"><a href="#">Catalog</a></li>
-					<li class="menu__item"><a href="#">Help</a></li>
+					<li class="menu__item menu__item1"><a href="#">Free test</a></li>
+					<li class="menu__item menu__item2"><a href="#">Catalog</a></li>
+					<li class="menu__item menu__item3"><a href="#">Help</a></li>
 					<li class="menu__item item_profile"><a href="#" class="profile"><label>Michael Browk</label> <img src="img/ava.png" alt=""></a> </li>
 				</ul>
 			</nav>
@@ -48,8 +49,8 @@
 					</fieldset>
 				</div>
 			</form>
-			<div class="island_list">
-				<div class="island1">
+			<div class="island_list slider">
+				<div class="island1 slider__item">
 					<div class="island_container">
 						<div class="island__bg">
 							<div class="scale_progress">
@@ -75,7 +76,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="island2">
+				<div class="island2 slider__item">
 					<div class="island_container">
 						<div class="island__bg">
 							<div class="scale_progress">
@@ -101,7 +102,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="island3">
+				<div class="island3 slider__item">
 					<div class="island_container">
 						<div class="island__bg">
 							<div class="scale_progress">
@@ -130,6 +131,8 @@
 			</div>
 		</div>
 	</main>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
 	<script src="js/script.js"></script>	
 </body>
 </html>
